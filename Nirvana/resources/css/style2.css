@@ -1,0 +1,318 @@
+/* header */
+.tab #logo {
+    font-family:'Bowlby One SC';
+    width:20px;
+    height:auto;
+    display: flex;
+    justify-content: flex-start;
+    color: rgb(220, 173, 55);
+    margin-top: 0%;
+    
+  }
+  .tab {
+    display:flex;
+
+  }
+
+  .nav-item a {
+    color: black;
+    background-color: rgb(218, 203, 157);
+    padding:10px;
+    border-radius: 50%;
+    font-weight: bold;
+ 
+  }
+  
+  ul {
+    list-style: none;
+  }
+  .nav {
+    width: auto;
+    display: flex;
+    justify-content:flex-end;
+    padding-left: 70%;
+
+   
+  }
+
+html {
+    font-size: 16px;
+    font-family: 'Merriweather Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: #808080;
+    transition: color ease-in 300ms;
+}
+
+
+
+.image-container {
+    overflow: hidden;
+}
+
+.center {
+    text-align: center;
+}
+
+.center h2 {
+    display: inline;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    height: 4rem;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    background-color: white;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    top:0px;
+}
+img .logo {
+    height: 32px;
+}
+
+.logo-text {
+    text-transform: uppercase;
+    color: gray;
+    font-size: 1.25rem;
+}
+.carousel-item img{
+    width:auto;
+    height: 300px;
+}
+.carousel-item{
+    display: flex;
+    align-items: center;
+}
+.second-part{
+    padding: 15px;
+    border: 5px solid black;
+}
+.carousel-caption{
+    padding:20px ;
+}
+
+
+
+
+/* Banner section */
+.main-content {
+    max-width:2000px;
+    height: 500px;
+    position: relative;
+    top: 64px;
+}
+
+.banner-section {
+    background-image: url('https://img.freepik.com/free-photo/wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass_181624-22807.jpg?w=1060&t=st=1668703045~exp=1668703645~hmac=0ee035a7997a064b55d30a67e3d7f041f4b83c3b259abb47abd78311f9459ab1');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 2rem 1.5rem;
+    display: flex;
+    max-width: auto;
+    height: 500px;
+    background-position: 0% 100%;
+    
+}
+
+.banner-image {
+    width:auto;
+    height:500px;
+}
+
+.banner-image img {
+    width: 100%;
+    height: auto;
+}
+
+.banner-content {
+    padding:  1.5rem;
+    margin: auto;
+    color:white;
+}
+.button1:hover {
+    background-color: #0f100f;
+    color: rgb(243, 230, 230);
+}
+.button1 {
+    border-radius: 20px;
+}
+.banner-content h1 {
+    display: inline;
+}
+
+.button {
+    background-color: white;
+    padding: 0.1rem;
+    border-radius: 50%;
+    color: rgb(245, 234, 234);
+
+}
+
+.button :hover {
+    transition: color ease-in 300ms;
+}
+
+.button p {
+    text-align: center;
+    line-height: 0;
+}
+
+.button-link {
+    color: white;
+}
+
+
+
+/* Information section */
+.yoga{
+    padding: 80px;
+}
+
+#information {
+    display: flex;
+    padding: 2rem 0 0 1.5rem;
+}
+
+.information-main {
+    width: 60%;
+    padding-right: 1.5rem;
+    border-right: 1px solid #cfcfcf;
+}
+
+.information-main img {
+    width: 100%;
+    height: auto;
+    padding-bottom: 2rem;
+    image-resolution:inherit;
+}
+
+.information-main h2 {
+    display: inline;
+    font-size: 1.3rem;
+}
+
+.info-main-content {
+    padding-top: 0.5rem;
+    display: inline-block;
+}
+
+.information-credit {
+    font-size: 0.6rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 20px;
+}
+
+.information-boxes {
+    width: 40%;
+}
+
+.image-container {
+    display: flex;
+    margin-bottom: 1rem;
+    padding-left: 1.5rem;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+.info-content {
+    padding: 0 1rem;
+}
+
+.info-content p {
+    font-size: 0.9rem;
+}
+
+.info-content h4 {
+    display: inline;
+}
+
+.info-content a {
+    color: rgb(77, 77, 255);
+}
+
+.info-content a:hover {
+    color: #000;
+    transition: color ease-in 500ms;
+}
+.guest-container {
+    display: flex;
+    background-color: #cfcfcf;
+    padding: 1rem 0 1rem 1.5rem;
+}
+
+.content-image {
+    max-width: 35%;
+}
+
+#content-image {
+    max-width: 100%;
+}
+
+.content-image-mobile {
+    display: none;
+}
+
+.guest-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+    .content-video-mobile {
+        display: flex;
+        padding: 50px;
+        padding-bottom: 0%;
+        
+    }
+
+    .guest-container {
+        display: block;
+        background-color: #fff;
+        padding: 0;
+    }
+
+    .guest-container img {
+        width: 100%;
+        height: 150px;
+    }
+
+    footer {
+        position: absolute;
+        width:100%;
+        border-top: solid rgba(0,0,0,0.5);
+        box-shadow: 3px 4px 5 px 6px #000;
+    }
+
+
+/* Mobile footer */
+
+@media only screen and (max-width: 480px) {
+    .footer-links {
+        display: none;
+    }
+
+    footer {
+        padding: 1rem;
+    }
+}
+
+
